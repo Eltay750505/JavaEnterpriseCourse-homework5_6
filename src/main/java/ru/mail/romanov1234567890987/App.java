@@ -1,13 +1,17 @@
 package ru.mail.romanov1234567890987;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+
+import ru.mail.romanov1234567890987.controller.HomeworkController;
+import ru.mail.romanov1234567890987.controller.impl.HomeworkControllerImpl;
+
+public class App {
+
+
+    public static void main(String[] args) {
+        HomeworkController homeworkController = new HomeworkControllerImpl();
+        //homeworkController.runFirstTask();
+        //homeworkController.runSecondTask();
+        //homeworkController.runThirdTask();
+        homeworkController.runFourthTask();
     }
 }
